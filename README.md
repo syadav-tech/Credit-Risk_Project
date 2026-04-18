@@ -75,10 +75,10 @@ credit-risk-project/
 ---
 
 ## PACE Framework
-- **Plan** — Business problem, stakeholders, success metrics
-- **Analyse** — EDA, target variable, missing data treatment
-- **Construct** — Feature engineering, scorecard, PD model
-- **Execute** — Dashboard delivery, validation, documentation
+- **Plan** - Business problem, stakeholders, success metrics
+- **Analyse** - EDA, target variable, missing data treatment
+- **Construct** - Feature engineering, scorecard, PD model
+- **Execute** - Dashboard delivery, validation, documentation
 
 ---
 
@@ -90,7 +90,7 @@ credit-risk-project/
 ​
 ## Live Dashboard
 
-🔗 [PortfolioGuard — Live App](https://credit-risk-project-h4bger8hnwq7caw6a2bmy5.streamlit.app/)
+🔗 [PortfolioGuard - Live App](https://credit-risk-project-h4bger8hnwq7caw6a2bmy5.streamlit.app/)
 ---
 
 *Dataset: LendingClub Loan Data 2007–2018 (Kaggle)*  
