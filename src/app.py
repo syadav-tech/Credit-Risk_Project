@@ -20,7 +20,7 @@ st.set_page_config(
 # ── SECTION 3: LOAD DATA ─────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv('../data/loans_clean.csv')
+    df = pd.read_csv('data/loans_clean.csv')
     return df
 df = load_data()
 
