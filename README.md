@@ -61,7 +61,7 @@ Portfolio average default rate : 20.5%
 ---
 
 ## Project Structure
-
+'''
 credit-risk-project/
 ├── data/
 │   └── loans_clean.csv
@@ -71,6 +71,7 @@ credit-risk-project/
 ├── src/
 │   └── app.py
 └── README.md
+'''
 ---
 
 ## PACE Framework
