@@ -31,6 +31,14 @@
 - **Portfolio Overview** - KPI Cards, Default Rate by Grade, Loan Purpose
 - **Risk Scorecard** - G/A/R tier distribution, default rates by tier
 - **Loan Assessment Tool** - live PD scoring for individual borrowers
+
+### 4. XGBoost Model Comparison (Notebook 3: 03_xgboost)
+- 4 XGBoost iterations - default params, sub_grade feature,
+  feature swapping, hyperparameter tuning
+- All variants converged within 1% Gini of logistic regression
+- Key finding: signal ceiling is dataset-driven, not algorithm-driven
+- Production conclusion: logistic regression remains appropriate -
+  equivalent performance, superior interpretability, Basel III compliant
 ---
 
 ## Risk Scorecard
@@ -60,6 +68,7 @@ Portfolio average default rate : 20.5%
 | SHAP | Model explainability |
 | Streamlit + Plotly | Interactive dashboard |
 | Jupyter Notebooks | Analysis and documentation |
+| XGBoost | Gradient boosting model comparison |
 
 ---
 
@@ -70,7 +79,8 @@ credit-risk-project/
 │   └── loans_clean.csv
 ├── notebooks/
 │   ├── 01_eda.ipynb
-│   └── 02_model.ipynb
+│   ├── 02_model.ipynb
+│   └── 03_xgboost.ipynb
 ├── src/
 │   └── app.py
 └── README.md
