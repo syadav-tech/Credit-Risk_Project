@@ -88,7 +88,9 @@ credit-risk-project/
 ```cd src```
 ```streamlit run app.py```
 ​
+## Live Dashboard
 
+🔗 [PortfolioGuard — Live App](https://credit-risk-project-h4bger8hnwq7caw6a2bmy5.streamlit.app/)
 ---
 
 *Dataset: LendingClub Loan Data 2007–2018 (Kaggle)*  
