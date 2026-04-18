@@ -1,3 +1,5 @@
+![PortfolioGuard](data/banner.png)
+ 
  # PortfolioGuard - Credit Risk Intelligence Platform
 
  ### A retail credit portfolio risk analytics tool built on 2.26 million LendingClub loan records(2007-2018). Designed to address the challenges facing retail banking risk teams: moving from reactive, manual reporting to proactive, data-driven portfolio monitoring. 
