@@ -84,12 +84,10 @@ credit-risk-project/
 
 ## Running the Dashboard
 
-​```bash
-
-cd src  
-
-streamlit run app.py
-​```
+​```bash```
+```cd src```
+```streamlit run app.py```
+​
 
 ---
 
