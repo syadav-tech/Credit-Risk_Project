@@ -83,8 +83,7 @@ if page == "Portfolio Overview":
             grade_analysis,
             x = 'grade',
             y = 'default_rate',
-            color = 'default_rate',
-            color_continuous_scale = 'Viridis',
+            color_discrete_sequence = ['#2471a3'],
             labels = {'default_rate':'Default Rate %', 'grade':'Loan Grade'},
             text = 'default_rate'
         )
